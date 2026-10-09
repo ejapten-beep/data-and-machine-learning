@@ -1,0 +1,41 @@
+Source : https://www.kaggle.com/datasets/hendratno/covid19-indonesia
+
+Keterangan Setiap nama kolom :
+1. Date - Tanggal laporan COVID-19 diterbitkan.
+2. Location ISO Code - Kode lokasi berdasarkan standar ISO
+3. Location - Nama lokasi tempat data dilaporkan
+4. New Cases - Jumlah kasus positif baru yang dilaporkan pada hari itu.
+5. New Deaths - Jumlah kematian baru akibat COVID-19 yang dilaporkan pada hari itu.
+6. New Recovered - Jumlah orang yang sembuh dari COVID-19 pada hari itu.
+7. New Active Cases - Perubahan jumlah kasus aktif harians
+8. Total Cases - Total akumulasi kasus positif COVID-19 hingga tanggal pelaporan.
+9. Total Deaths - Total kematian akibat COVID-19 hingga tanggal pelaporan.
+10. Total Recovered - Total kesembuhan dari COVID-19 hingga tanggal pelaporan.
+11. Total Active Cases - Jumlah kasus positif yang masih aktif hingga tanggal pelaporan.
+12. Location Level - Tingkat wilayah dari lokasi pelaporan, bisa berupa provinsi atau negara.
+13. City or Regency - Nama kota atau kabupaten tempat data dilaporkan.
+14. Province - Nama provinsi tempat data dilaporkan.
+15. Country - Nama negara tempat data dilaporkan.
+16. Continent - Nama benua tempat data dilaporkan.
+17. Island - Nama pulau tempat data dilaporkan.
+18. Time Zone - Zona waktu lokasi tempat data dilaporkan.
+19. Special Status - Status khusus dari lokasi (misalnya daerah otonomi khusus atau karantina).
+20. Total Regencies - Jumlah kabupaten di lokasi tersebut.
+21. Total Cities - Jumlah kota di lokasi tersebut.
+22. Total Districts - Jumlah distrik atau kecamatan di lokasi tersebut.
+23. Total Urban Villages - Jumlah kelurahan di lokasi tersebut.
+24. Total Rural Villages - Jumlah desa di lokasi tersebut.
+25. Area (km²) - Luas wilayah lokasi dalam kilometer persegi.
+26. Population - Jumlah populasi di lokasi tersebut.
+27. Population Density - Kepadatan penduduk di lokasi tersebut:
+Population Density= Area/Population
+28. Longitude - Bujur geografis lokasi (koordinat).
+29. Latitude - Lintang geografis lokasi (koordinat).
+30. New Cases per Million - Jumlah kasus positif baru per 1 juta penduduk
+31. Total Deaths per Million - Total kematian per 1 juta penduduk
+32. New Deaths per Million - Kematian baru per 1 juta penduduk
+33. Total Death per 100rb - Proporsi kematian dari total kasus dalam persentase
+34. Case Fatality Rate (CFR) - Tingkat kematian kasus, proporsi kematian dari
+35. Case Recovered Rate - Rasio kesembuhan harian. Di bawah 1 artinya menurun, 1 artinya stabil, di atas 1 artinya meningkat
+36. Growth Factor of New Cases - Faktor pertumbuhan kasus baru. Di bawah 1 berarti menurun, 1 berarti stabil
+37 Growth Factor of New Deaths - Faktor pertumbuhan kematian baru. Di bawah 1 berarti menurun, 1 berarti stabil, di atas 1 berarti meningkat
