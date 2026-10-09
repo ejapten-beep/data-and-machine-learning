@@ -1,0 +1,11 @@
+Full Explanation : https://www.notion.so/Analysis-Sentimen-pada-Game-Let-s-GetRich-2fd659dff8b380688418ce50ce1fadf9?source=copy_link
+
+Cara menjalankan :
+1. Download requirements.txt
+2. install pada lingkungan venv
+
+Folder:
+Model-sentiment : data dari hasil pemodelan
+1-scrraping : proses pengambilan data
+2-processing-model : olah data sampai pemodelan algoritma
+3-prediction : deployment
