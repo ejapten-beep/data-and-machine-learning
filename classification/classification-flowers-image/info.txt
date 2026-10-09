@@ -1,0 +1,20 @@
+- requirements.txt : File ini digunakan untuk mencatat seluruh library Python beserta versinya
+yang dibutuhkan agar project dapat dijalankan dengan benar dan konsisten.
+- best_model.h5 : file model hasil training terbaik yang disimpan menggunakan ModelCheckpoint berdasarkan nilai validasi terbaik.
+- classification_flower_image.ipynb : file code untuk olah data dan pemodelan
+
+--------------------------------------------------------
+cara memakai requirements.txt:
+Fungsi utama:
+- Mempermudah instalasi dependensi project
+- Menjaga kesamaan environment antar pengguna / perangkat
+- Menghindari error akibat perbedaan versi library
+
+Cara penggunaan:
+1. Pastikan file requirements.txt berada di folder project
+2. Jalankan perintah berikut di terminal / Google Colab:
+
+   pip install -r requirements.txt
+
+Dengan perintah tersebut, semua library yang tercantum di dalam file
+akan terinstal secara otomatis.
